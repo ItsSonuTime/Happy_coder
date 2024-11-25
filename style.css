@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+body{
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+nav{
+    background: white;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:flex-end;
+}
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: red;
+}
+nav li:first-child{
+    margin-right: auto;
+   
+    font-weight: bolder;
+}
+nav li:first-child:hover{
+    color: red;
+    font-size: 1.20rem;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(-10px);
+    background-color: white;
+    box-shadow: -10px 0 10px rgba(0, 0,0, 0.2);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+
+}
+.sidebar a{
+    width: 100% ;
+}
+
+.menu-button{
+    display: none;
+}
+@media(max-width : 700px){
+    .Moblie{
+        display: none  ;
+
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media( max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+    color: black;
+    font-weight: bold;
+    height: 350px;
+ 
+  
+}
+.container .left h2, h3 {
+    margin-left: 50px;
+}
+.bio{
+    margin-left: 50px;
+    font-size: 1rem;
+}
+.container .left h2{
+    font-size: 1.5rem;
+}
+@media (max-width: 400px) {
+    .container{
+        display: block;
+    }
+    
+}
+#element{
+    margin-left: 50px;
+    color: blue;
+    font-size: 1rem;
+}
+.icons {
+    height: 45px;
+    display: flex;
+    align-items: center;
+   margin-left: 50px;
+}
+.aboutme {
+    height: 200px;
+    padding-left: 50px;
+    margin-top: 10px;
+
+} 
+ button{
+    height: 40px;
+    width: 100px;
+    font-size: 1rem;
+    background-color: black;
+    border: 2px solid yellow;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+   .btn a{
+    text-decoration: none;
+  
+     font-size: 1rem;
+     color: white;
+ }
+ 
+
+
+
+ ul li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+
+.html{ 
+    height: 5px;
+    width: 200px;
+    background-color: black;
+
+}
+.css{
+
+     height: 5px;
+     width: 200px;
+     background-color: black;
+}
+.js{
+    height: 5px;
+    width: 150px;
+    background-color: black;
+}
+.DSA{
+    height: 5px;
+    width: 70px;
+    background-color: black;
+}
+
+
+
+
