@@ -127,6 +127,7 @@ nav li:first-child:hover{
     margin-top: 10px;
 
 } 
+icons a{ margin-left: 5px} 
  button{
     height: 40px;
     width: 100px;
