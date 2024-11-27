@@ -127,7 +127,12 @@ nav li:first-child:hover{
     margin-top: 10px;
 
 } 
-icons a{ margin-left: 5px} 
+icons a{ margin-left: 5px
+        list-style: none;
+        text-decoration: none;
+        font-size: 1rem;
+        coloe: black;
+       } 
 
    .btn a{
     text-decoration: none;
